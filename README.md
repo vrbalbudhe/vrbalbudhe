@@ -1,21 +1,3 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:001F3F,50:1A2980,100:26D0CE&section=header&text=Varun%20Balbudhe&fontSize=70&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20Smart%20Contracts%20Developer%20%7C%20DevOps%20Enthusiast&descAlignY=60&descAlign=50&strokeWidth=1" width="100%" alt="Header"/>
-</div>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vrbalbudhe/vrbalbudhe/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vrbalbudhe/vrbalbudhe/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/vrbalbudhe/vrbalbudhe/output/github-contribution-grid-snake.svg">
-</picture>
-
-<br>
-
-<div align="center">
-  <img src="https://media.giphy.com/media/gjrYDwbjnK8x36xZIO/giphy.gif" width="22%" align="right">
-</div>
-
 ## 💫 About Me
 
 - 🔭 I'm currently working on **Web & Blockchain Development**
