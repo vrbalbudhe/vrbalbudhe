@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="260" viewBox="0 0 820 260" font-family="'JetBrains Mono','Fira Code',Consolas,monospace">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <path id="p1" d="M170 130 H300"/>
+  <path id="p2" d="M450 130 C520 130 520 60 600 60"/>
+  <path id="p3" d="M450 130 H600"/>
+  <path id="p4" d="M450 130 C520 130 520 200 600 200"/>
+</defs>
+<rect x="1" y="1" width="818" height="258" rx="14" fill="url(#bg)" stroke="#30363d"/>
+<text x="20" y="28" fill="#8b949e" font-size="12">// how WorkSync routes a request — one SaaS, isolated database per tenant</text>
+
+<!-- wires -->
+<g fill="none" stroke="#30363d" stroke-width="2">
+  <use href="#p1"/><use href="#p2"/><use href="#p3"/><use href="#p4"/>
+</g>
+<g fill="none" stroke-width="2" stroke-dasharray="6 10" opacity=".7">
+  <use href="#p1" stroke="#79c0ff"><animate attributeName="stroke-dashoffset" values="32;0" dur="1s" repeatCount="indefinite"/></use>
+  <use href="#p2" stroke="#7ee787"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.2s" repeatCount="indefinite"/></use>
+  <use href="#p3" stroke="#d2a8ff"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.2s" repeatCount="indefinite"/></use>
+  <use href="#p4" stroke="#ffa657"><animate attributeName="stroke-dashoffset" values="32;0" dur="1.2s" repeatCount="indefinite"/></use>
+</g>
+
+<!-- packets: request goes in, then lands in ONE tenant db per cycle -->
+<circle r="5" fill="#79c0ff" filter="url(#glow)"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;.15;1" calcMode="linear"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.15;.16;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#7ee787" filter="url(#glow)" opacity="0"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.18;.33;1" calcMode="linear"><mpath href="#p2"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.18;.19;.33;.34;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#79c0ff" filter="url(#glow)" opacity="0"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.36;.51;1" calcMode="linear"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.36;.37;.51;.52;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#d2a8ff" filter="url(#glow)" opacity="0"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.54;.68;1" calcMode="linear"><mpath href="#p3"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.54;.55;.68;.69;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#79c0ff" filter="url(#glow)" opacity="0"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.7;.8;1" calcMode="linear"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.7;.71;.8;.81;1" dur="6s" repeatCount="indefinite"/></circle>
+<circle r="5" fill="#ffa657" filter="url(#glow)" opacity="0"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;.82;.96;1" calcMode="linear"><mpath href="#p4"/></animateMotion><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.82;.83;.96;.97;1" dur="6s" repeatCount="indefinite"/></circle>
+
+<!-- client -->
+<rect x="30" y="95" width="140" height="70" rx="10" fill="#0d1117" stroke="#79c0ff"/>
+<text x="100" y="124" text-anchor="middle" fill="#c9d1d9" font-size="14">React + TS</text>
+<text x="100" y="144" text-anchor="middle" fill="#8b949e" font-size="11">JWT · MFA</text>
+
+<!-- api -->
+<rect x="300" y="80" width="150" height="100" rx="10" fill="#0d1117" stroke="#e3b341">
+  <animate attributeName="stroke-opacity" values="1;.4;1" dur="2s" repeatCount="indefinite"/>
+</rect>
+<text x="375" y="112" text-anchor="middle" fill="#c9d1d9" font-size="14">Spring Boot</text>
+<text x="375" y="132" text-anchor="middle" fill="#8b949e" font-size="11">Security · RBAC</text>
+<text x="375" y="150" text-anchor="middle" fill="#8b949e" font-size="11">TenantRouter</text>
+<text x="375" y="168" text-anchor="middle" fill="#e3b341" font-size="11">Hibernate/JPA</text>
+
+<!-- tenant dbs -->
+<g font-size="12">
+  <rect x="600" y="38" width="190" height="44" rx="10" fill="#0d1117" stroke="#7ee787"><animate attributeName="fill" values="#0d1117;#0d1117;#12301b;#0d1117;#0d1117" keyTimes="0;.32;.35;.45;1" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="695" y="65" text-anchor="middle" fill="#7ee787">tenant_acme · PostgreSQL</text>
+  <rect x="600" y="108" width="190" height="44" rx="10" fill="#0d1117" stroke="#d2a8ff"><animate attributeName="fill" values="#0d1117;#0d1117;#251a36;#0d1117;#0d1117" keyTimes="0;.67;.70;.8;1" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="695" y="135" text-anchor="middle" fill="#d2a8ff">tenant_globex · PostgreSQL</text>
+  <rect x="600" y="178" width="190" height="44" rx="10" fill="#0d1117" stroke="#ffa657"><animate attributeName="fill" values="#0d1117;#0d1117;#33220f;#0d1117;#0d1117" keyTimes="0;.95;.98;.995;1" dur="6s" repeatCount="indefinite"/></rect>
+  <text x="695" y="205" text-anchor="middle" fill="#ffa657">tenant_initech · PostgreSQL</text>
+</g>
+<text x="20" y="245" fill="#8b949e" font-size="11">Flyway migrations · PDF/Excel reports · scheduled mail · i18n</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="410" viewBox="0 0 820 410" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="14">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b22"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7ee787"/><stop offset=".5" stop-color="#79c0ff"/><stop offset="1" stop-color="#d2a8ff"/>
+<animateTransform attributeName="gradientTransform" type="rotate" values="0 .5 .5;360 .5 .5" dur="6s" repeatCount="indefinite"/></linearGradient>
+<pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="2" fill="#ffffff" opacity=".018"/></pattern>
+<clipPath id="c0"><rect x="22" y="45" height="23" width="0"><animate attributeName="width" values="0;0;146.9;146.9;0" keyTimes="0;0.0500;0.0727;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c1"><rect x="22" y="68" height="23" width="0"><animate attributeName="width" values="0;0;416.6;416.6;0" keyTimes="0;0.0841;0.0895;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c2"><rect x="22" y="91" height="23" width="0"><animate attributeName="width" values="0;0;214.3;214.3;0" keyTimes="0;0.1123;0.1568;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c3"><rect x="22" y="114" height="23" width="0"><animate attributeName="width" values="0;0;20.4;20.4;0" keyTimes="0;0.1682;0.1736;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c4"><rect x="22" y="137" height="23" width="0"><animate attributeName="width" values="0;0;551.5;551.5;0" keyTimes="0;0.1736;0.1791;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c5"><rect x="22" y="160" height="23" width="0"><animate attributeName="width" values="0;0;458.8;458.8;0" keyTimes="0;0.1791;0.1845;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c6"><rect x="22" y="183" height="23" width="0"><animate attributeName="width" values="0;0;441.9;441.9;0" keyTimes="0;0.1845;0.1900;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c7"><rect x="22" y="206" height="23" width="0"><animate attributeName="width" values="0;0;298.6;298.6;0" keyTimes="0;0.1900;0.1955;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c8"><rect x="22" y="229" height="23" width="0"><animate attributeName="width" values="0;0;374.5;374.5;0" keyTimes="0;0.1955;0.2009;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c9"><rect x="22" y="252" height="23" width="0"><animate attributeName="width" values="0;0;20.4;20.4;0" keyTimes="0;0.2009;0.2064;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c10"><rect x="22" y="275" height="23" width="0"><animate attributeName="width" values="0;0;197.5;197.5;0" keyTimes="0;0.2291;0.2673;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c11"><rect x="22" y="298" height="23" width="0"><animate attributeName="width" values="0;0;551.5;551.5;0" keyTimes="0;0.2786;0.2841;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c12"><rect x="22" y="321" height="23" width="0"><animate attributeName="width" values="0;0;214.3;214.3;0" keyTimes="0;0.3068;0.3514;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+<clipPath id="c13"><rect x="22" y="344" height="23" width="0"><animate attributeName="width" values="0;0;433.5;433.5;0" keyTimes="0;0.3627;0.3682;0.97;1" dur="22.0s" repeatCount="indefinite"/></rect></clipPath>
+</defs>
+<rect x="1.5" y="1.5" width="817" height="407" rx="14" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+<rect x="1.5" y="1.5" width="817" height="407" rx="14" fill="url(#scan)"/>
+<path d="M1.5 38 H818.5" stroke="#30363d"/>
+<circle cx="24" cy="20" r="6" fill="#ff5f56"/>
+<circle cx="44" cy="20" r="6" fill="#ffbd2e"/>
+<circle cx="64" cy="20" r="6" fill="#27c93f"/>
+<text x="410.0" y="25" text-anchor="middle" fill="#8b949e" font-size="12">varun@github: ~ — zsh</text>
+<text x="24" y="62" clip-path="url(#c0)" xml:space="preserve"><tspan fill="#7ee787">~/varun</tspan><tspan fill="#79c0ff"> $ </tspan><tspan fill="#c9d1d9">whoami</tspan></text>
+<text x="24" y="85" clip-path="url(#c1)" xml:space="preserve"><tspan fill="#7ee787">Varun&#160;Balbudhe</tspan><tspan fill="#8b949e">&#160;&#160;//&#160;&#160;Full&#160;Stack&#160;Software&#160;Engineer</tspan></text>
+<text x="24" y="108" clip-path="url(#c2)" xml:space="preserve"><tspan fill="#7ee787">~/varun</tspan><tspan fill="#79c0ff"> $ </tspan><tspan fill="#c9d1d9">cat&#160;stack.json</tspan></text>
+<text x="24" y="131" clip-path="url(#c3)" xml:space="preserve"><tspan fill="#8b949e">{</tspan></text>
+<text x="24" y="154" clip-path="url(#c4)" xml:space="preserve"><tspan fill="#79c0ff">&#160;&#160;&quot;backend&quot;</tspan><tspan fill="#8b949e">:&#160;&#160;</tspan><tspan fill="#ffa657">Java&#160;·&#160;Spring&#160;Boot&#160;·&#160;Hibernate&#160;·&#160;Node.js&#160;·&#160;Express</tspan></text>
+<text x="24" y="177" clip-path="url(#c5)" xml:space="preserve"><tspan fill="#79c0ff">&#160;&#160;&quot;frontend&quot;</tspan><tspan fill="#8b949e">:&#160;</tspan><tspan fill="#ffa657">React&#160;·&#160;Next.js&#160;·&#160;TypeScript&#160;·&#160;Tailwind</tspan></text>
+<text x="24" y="200" clip-path="url(#c6)" xml:space="preserve"><tspan fill="#79c0ff">&#160;&#160;&quot;data&quot;</tspan><tspan fill="#8b949e">:&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#ffa657">PostgreSQL&#160;·&#160;MongoDB&#160;·&#160;Redis&#160;·&#160;Prisma</tspan></text>
+<text x="24" y="223" clip-path="url(#c7)" xml:space="preserve"><tspan fill="#79c0ff">&#160;&#160;&quot;cloud&quot;</tspan><tspan fill="#8b949e">:&#160;&#160;&#160;&#160;</tspan><tspan fill="#ffa657">Docker&#160;·&#160;AWS&#160;·&#160;CI/CD</tspan></text>
+<text x="24" y="246" clip-path="url(#c8)" xml:space="preserve"><tspan fill="#79c0ff">&#160;&#160;&quot;web3&quot;</tspan><tspan fill="#8b949e">:&#160;&#160;&#160;&#160;&#160;</tspan><tspan fill="#ffa657">Solidity&#160;·&#160;Ethereum&#160;·&#160;Foundry</tspan></text>
+<text x="24" y="269" clip-path="url(#c9)" xml:space="preserve"><tspan fill="#8b949e">}</tspan></text>
+<text x="24" y="292" clip-path="url(#c10)" xml:space="preserve"><tspan fill="#7ee787">~/varun</tspan><tspan fill="#79c0ff"> $ </tspan><tspan fill="#c9d1d9">ls&#160;./shipped</tspan></text>
+<text x="24" y="315" clip-path="url(#c11)" xml:space="preserve"><tspan fill="#d2a8ff">WorkSync/&#160;&#160;</tspan><tspan fill="#d2a8ff">NXTHREADS/&#160;&#160;</tspan><tspan fill="#d2a8ff">TransactETH/&#160;&#160;</tspan><tspan fill="#d2a8ff">KanbanFlow/&#160;&#160;</tspan><tspan fill="#d2a8ff">QR-Attendance/</tspan></text>
+<text x="24" y="338" clip-path="url(#c12)" xml:space="preserve"><tspan fill="#7ee787">~/varun</tspan><tspan fill="#79c0ff"> $ </tspan><tspan fill="#c9d1d9">./status&#160;--now</tspan></text>
+<text x="24" y="361" clip-path="url(#c13)" xml:space="preserve"><tspan fill="#7ee787">●&#160;</tspan><tspan fill="#c9d1d9">building&#160;multi-tenant&#160;SaaS</tspan><tspan fill="#8b949e">&#160;&#160;·&#160;&#160;</tspan><tspan fill="#e3b341">open&#160;to&#160;SDE&#160;roles</tspan></text>
+<text x="24" y="384" xml:space="preserve"><tspan fill="#7ee787">~/varun</tspan><tspan fill="#79c0ff"> $ </tspan></text>
+<rect x="110.3" y="371" width="8" height="16" fill="#7ee787"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.5;.5;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>
